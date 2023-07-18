@@ -1,0 +1,1 @@
+select last_name || q'['s anual salary is : ]' || NVL(12*(salary+salary*commission_pct),12*salary) "Anual Salary" from employees;
