@@ -1,1 +1,0 @@
- select last_name,salary,NVL(12*(salary+salary*commission_pct),12*salary) "Anual Salary" from employees;
