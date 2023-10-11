@@ -35,7 +35,7 @@ mystruct *createNode() {
     return m;
 }
 
-// Function to find the leaf node for a given English word
+// Function to find the leaf node for a given English word, internal node hole while e dhukbe, leaf hole ber hoye jabe
 mystruct* findLeaf(mystruct* tempRt, string english) {
     while (tempRt->lf == false) {
         int i;
